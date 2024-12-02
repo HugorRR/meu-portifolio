@@ -53,6 +53,12 @@ def contato():
         st.markdown("### 💻 GitHub")
         st.markdown("[Veja meus projetos](https://github.com/HugorRR)")
     
+    with col4:
+        st.markdown("### 📱 WhatsApp")
+        st.markdown("""
+        [Fale comigo](https://wa.me/+5519993100681)
+        """)
+
 def main():
     sobre()
     contato()
